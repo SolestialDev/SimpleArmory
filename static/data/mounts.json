@@ -865,35 +865,7 @@
             "itemId": 187675,
             "name": "Shimmering Aurelid",
             "spellid": 359379
-          },
-          {
-            "ID": 1442,
-            "icon": "inv_jailerhoundmount_black",
-            "itemId": 184166,
-            "name": "Corridor Creeper",
-            "spellid": 344578
-          },
-          {
-            "ID": 1416,
-            "icon": "ability_mount_mawhorsespikes_blue",
-            "itemId": 186655,
-            "name": "Mawsworn Charger",
-            "spellid": 339956
-          },
-          {
-            "ID": 1564,
-            "icon": "inv_mawratmount_01",
-            "itemId": 188736,
-            "name": "Colossal Soulshredder Mawrat",
-            "spellid": 363297
-          },
-          {
-            "ID": 1566,
-            "icon": "inv_mawratmount_05",
-            "itemId": 188696,
-            "name": "Colossal Ebonclaw Mawrat",
-            "spellid": 363136
-          },
+          },            
           {
             "ID": 1576,
             "icon": "4216725",
@@ -940,6 +912,34 @@
       {
         "id": "05a14d7e",
         "items": [
+          {
+            "ID": 1566,
+            "icon": "inv_mawratmount_05",
+            "itemId": 188696,
+            "name": "Colossal Ebonclaw Mawrat",
+            "spellid": 363136
+          },
+          {
+            "ID": 1442,
+            "icon": "inv_jailerhoundmount_black",
+            "itemId": 184166,
+            "name": "Corridor Creeper",
+            "spellid": 344578
+          },
+          {
+            "ID": 1416,
+            "icon": "ability_mount_mawhorsespikes_blue",
+            "itemId": 186655,
+            "name": "Mawsworn Charger",
+            "spellid": 339956
+          },
+          {
+            "ID": 1564,
+            "icon": "inv_mawratmount_01",
+            "itemId": 188736,
+            "name": "Colossal Soulshredder Mawrat",
+            "spellid": 363297
+          },          
           {
             "ID": 1565,
             "icon": "inv_mawratmount_03",
