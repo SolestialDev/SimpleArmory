@@ -1612,6 +1612,16 @@
       },
       {
         "items": [
+        ],
+        "name": "Night Fae Reputation"
+      },
+      {
+        "items": [
+        ],
+        "name": "Night Fae Drop"
+      },
+      {
+        "items": [
           {
             "ID": 1396,
             "icon": "inv_automatonlionmount",
@@ -1698,6 +1708,16 @@
           }
         ],
         "name": "Kyrian"
+      },
+      {
+        "items": [
+        ],
+        "name": "Kyrian Reputation"
+      },
+      {
+        "items": [
+        ],
+        "name": "Kyrian Drop"
       },
       {
         "items": [
@@ -1801,6 +1821,16 @@
           }
         ],
         "name": "Necrolords"
+      },
+      {
+        "items": [
+        ],
+        "name": "Necrolords Reputation"
+      },
+      {
+        "items": [
+        ],
+        "name": "Necrolords Drop"
       },
       {
         "items": [
