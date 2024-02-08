@@ -1819,13 +1819,6 @@
             "spellid": 312754
           },
           {
-            "ID": 1384,
-            "icon": "inv_deathwargmountred",
-            "itemId": 183715,
-            "name": "Sinfall Gargon",
-            "spellid": 332927
-          },
-          {
             "ID": 1388,
             "icon": "inv_deathwargmount2white",
             "itemId": 182332,
@@ -1838,41 +1831,18 @@
             "itemId": 186476,
             "name": "Sinfall Gravewing",
             "spellid": 353872
-          },
-          {
-            "ID": 1489,
-            "icon": "inv_gargoylebrute2mount_dark",
-            "itemId": 186478,
-            "name": "Obsidian Gravewing",
-            "spellid": 353866
-          },
-          {
-            "ID": 1491,
-            "icon": "inv_gargoylebrute2mount_pale",
-            "itemId": 186477,
-            "name": "Pale Gravewing",
-            "spellid": 353873
-          },
-          {
-            "ID": 803,
-            "icon": "inv_gargoylebrute2mount_brown",
-            "itemId": 186479,
-            "name": "Mastercraft Gravewing",
-            "spellid": 215545
-          },
+          }
+        ],
+        "name": "Venthyr"
+      },
+      {
+        "items": [
           {
             "ID": 1382,
             "icon": "inv_deathwargmountpurple",
             "itemId": 182954,
             "name": "Inquisition Gargon",
             "spellid": 332923
-          },
-          {
-            "ID": 1298,
-            "icon": "inv_deathwargmountblack",
-            "itemId": 180581,
-            "name": "Hopecrusher Gargon",
-            "spellid": 312753
           },
           {
             "ID": 1387,
@@ -1882,11 +1852,25 @@
             "spellid": 332949
           },
           {
-            "ID": 1389,
-            "icon": "inv_deathwargmount2red",
-            "itemId": 183798,
-            "name": "Battle Gargon Silessa",
-            "spellid": 333023
+            "ID": 1384,
+            "icon": "inv_deathwargmountred",
+            "itemId": 183715,
+            "name": "Sinfall Gargon",
+            "spellid": 332927
+          },
+          {
+            "ID": 1491,
+            "icon": "inv_gargoylebrute2mount_pale",
+            "itemId": 186477,
+            "name": "Pale Gravewing",
+            "spellid": 353873
+          },
+          {
+            "ID": 1489,
+            "icon": "inv_gargoylebrute2mount_dark",
+            "itemId": 186478,
+            "name": "Obsidian Gravewing",
+            "spellid": 353866
           },
           {
             "ID": 1310,
@@ -1894,9 +1878,35 @@
             "itemId": 180461,
             "name": "Horrid Dredwing",
             "spellid": 332882
+          }          
+        ],
+        "name": "Venthyr Reputation"
+      },
+      {
+        "items": [
+          {
+            "ID": 1298,
+            "icon": "inv_deathwargmountblack",
+            "itemId": 180581,
+            "name": "Hopecrusher Gargon",
+            "spellid": 312753
+          },
+          {
+            "ID": 803,
+            "icon": "inv_gargoylebrute2mount_brown",
+            "itemId": 186479,
+            "name": "Mastercraft Gravewing",
+            "spellid": 215545
+          },
+          {
+            "ID": 1389,
+            "icon": "inv_deathwargmount2red",
+            "itemId": 183798,
+            "name": "Battle Gargon Silessa",
+            "spellid": 333023
           }
         ],
-        "name": "Venthyr"
+        "name": "Venthyr Drop"
       },
       {
         "id": "e33bd91a",
