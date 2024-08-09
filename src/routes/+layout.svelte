@@ -14,6 +14,9 @@
 	import Titles from '$pages/Titles.svelte';
 	import Calendar from '$pages/Calendar.svelte';
 	import Reputations from '$pages/Reputations.svelte';
+	import TransmogSets from '$pages/TransmogSets.svelte';
+	import TransmogItems from '$pages/TransmogItems.svelte';
+	import Transmog from '$pages/Transmog.svelte';
 	import Nav from '$components/Nav.svelte';
 	import Login from '$pages/Login.svelte';
 	import Error from '$pages/Error.svelte';
@@ -164,6 +167,22 @@
 			<!-- collectable/titles -->
 			{:else if $page === 'collectable' && $category === 'titles'} 
 			<Titles/>
+
+			<!-- collectable/transmogsets -->
+			{:else if $page === 'collectable' && $category === 'transmogsets'} 
+			<TransmogSets/>
+
+			<!-- collectable/transmogitems -->
+			{:else if $page === 'collectable' && $category === 'transmogitems'} 
+			<TransmogItems/>
+
+			<!-- transmog/head -->
+			{:else if $page === 'transmog' && $category === 'head'} 
+			<Transmog transmogType={0}/>
+
+			<!-- transmog/head -->
+			{:else if $page === 'transmog' && $category === 'shoulder'} 
+			<Transmog transmogType={1}/>
 
 			<!-- calendar -->
 			{:else if $page === 'calendar'}

@@ -29,14 +29,35 @@
 		},
 		'Collectable': {
 			items: [ 
-				{ txt: 'Mounts',      link: 'mounts'     },
-				{ txt: 'Companions',  link: 'companions' },
-				{ txt: 'Battle Pets', link: 'battlepets' },
-				{ txt: 'Toys',        link: 'toys'       },
-				{ txt: 'Heirlooms',	  link: 'heirlooms'  },
-				{ txt: 'Titles',	  link: 'titles'     },
+				{ txt: 'Mounts',      	link: 'mounts'      },
+				{ txt: 'Companions',  	link: 'companions'  },
+				{ txt: 'Battle Pets', 	link: 'battlepets'  },
+				{ txt: 'Toys',        	link: 'toys'        },
+				{ txt: 'Heirlooms',	  	link: 'heirlooms'   },
+				{ txt: 'Titles',	    link: 'titles'      },
 			],
 			isOpen: false,
+		},
+		'Transmog': {
+			items: [
+				{ txt: 'Transmog Sets', link: 'transmogsets'},
+				{ txt: 'Transmog Items', link: 'transmogitems'},
+				{ txt: 'Head Appearances', link: 'head'},
+				{ txt: 'Shoulder Appearances', link: 'shoulder'},
+				{ txt: 'Chest Appearances', link: 'chest'},
+				{ txt: 'Back Appearances', link: 'back'},
+				{ txt: 'Wrists Appearances', link: 'wrist'},
+				{ txt: 'Hands Appearances', link: 'hand'},
+				{ txt: 'Waist Appearances', link: 'waist'},
+				{ txt: 'Legs Appearances', link: 'legs'},
+				{ txt: 'Boots Appearances', link: 'boots'},
+				{ txt: 'Main Hand Appearances', link: 'mainhand'},
+				{ txt: 'Off Hand Appearances', link: 'offhand'},
+				{ txt: 'Tabard Appearances', link: 'tabard'},
+				{ txt: 'Shirt Appearances', link: 'shirt'},
+				{ txt: 'Ranged Appearances', link: 'ranged'},
+				{ txt: 'Shield Appearances', link: 'shield'},
+			]
 		},
 		'Profile': {
 			locales: [
@@ -186,6 +207,17 @@
 					<ul class="dropdown-menu" aria-labelledby="collectDrop">
 					  {#each menuItems.Collectable.items as item} 
 					    <li class:active="{$page === 'collectable' && $category === item.link}"><a href="{getUrl($region, $realm, $character, 'collectable/' + item.link)}">{item.txt}</a></li>	
+					  {/each}
+					</ul>
+				</li>
+
+				<li class:active="{$page === 'transmog'}" class="dropdown" class:open={menuItems.Transmog.isOpen}>
+					<a id="collectDrop" href="#/" on:click="{(e) => toggleDropDown(e,menuItems.Transmog)}"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transmog
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="transmogDrop">
+					  {#each menuItems.Transmog.items as item} 
+					    <li class:active="{$page === 'transmog' && $category === item.link}"><a href="{getUrl($region, $realm, $character, 'transmog/' + item.link)}">{item.txt}</a></li>	
 					  {/each}
 					</ul>
 				</li>

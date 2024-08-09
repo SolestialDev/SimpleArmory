@@ -11,17 +11,19 @@ from .pets import PetFixer
 from .realms import RealmFixer
 from .titles import TitleFixer
 from .toys import ToyFixer
+from .transmog import TransmogFixer
 
 from .providers import wago
 
 FIXERS = {
-    'achievements': (AchievementFixer, ['achievements.json']),
-    'heirlooms': (HeirloomFixer, ['heirlooms.json']),
-    'mounts': (MountFixer, ['mounts.json']),
-    'pets': (PetFixer, ['pets.json', 'battlepets.json']),
-    'reputations': (FactionFixer, ['factions.json']),
-    'titles': (TitleFixer, ['titles.json']),
-    'toys': (ToyFixer, ['toys.json']),
+    # 'achievements': (AchievementFixer, ['achievements.json']),
+    # 'heirlooms': (HeirloomFixer, ['heirlooms.json']),
+    # 'mounts': (MountFixer, ['mounts.json']),
+    # 'pets': (PetFixer, ['pets.json', 'battlepets.json']),
+    # 'reputations': (FactionFixer, ['factions.json']),
+    # 'titles': (TitleFixer, ['titles.json']),
+    # 'toys': (ToyFixer, ['toys.json']),
+    'transmog': (TransmogFixer, ['transmog.json']),
 }
 
 # BUG: #569: looks like realm graphql API isn't working anymore

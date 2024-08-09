@@ -19,12 +19,11 @@ function getHigherQualityBattlePet(currentPet, newPet) {
     return newPet
 }
 
-export async function parseCollectablesObject(categories, profile, collected_data, collectedProperty, collectedId, isPet) {
+export async function parseCollectablesObject(categories, profile, collected_data, collectedProperty, collectedId, isPet, isTransmogSet, appearanceType) {
     var obj = { 'categories': [] };
     var collected = {};
     var totalCollected = 0;
     var totalPossible = 0;
-
     var showHiddenItems = getShowHiddenSetting();
 
     // Build up lookup for items that character has
@@ -33,6 +32,14 @@ export async function parseCollectablesObject(categories, profile, collected_dat
             collected[item[collectedId].id] = getHigherQualityBattlePet(
                 collected[item[collectedId].id], item
             );
+        } else if(isTransmogSet) {
+            collected[item.id] = item;
+        } else if(appearanceType != undefined) {
+            //if(item['slot']['type'] == appearanceType.toUpperCase()) {
+                item['appearances'].forEach((appearance) => {
+                    collected[appearance.id] = appearance;
+                });
+            //}
         } else {
             collected[item[collectedId].id] = item;
         }
@@ -40,6 +47,9 @@ export async function parseCollectablesObject(categories, profile, collected_dat
 
     // Lets parse out all the categories and build out our structure
     categories.forEach((category) => {
+
+        console.log(1)
+        console.log(category)
 
         // Add the item category to the item list
         var cat = { 'name': category.name, 'subCategories': [] };
