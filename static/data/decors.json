@@ -119,6 +119,7 @@
     "name": "Limited Time",
     "subcats": [
       {
+        "info": "This decor is available as a Twitch Drop for a limited time and will likely not return again. \n Ending: September 27th",
         "items": [
           {
             "ID": 15153,
@@ -127,8 +128,7 @@
             "name": "Cuddly Blue Grrgle"
           }
         ],
-        "name": "Twitch Drops",
-        "info": "This decor is available as a Twitch Drop for a limited time and will likely not return again. \n Ending: September 27th" 
+        "name": "Twitch Drops"
       },
       {
         "items": [
@@ -166,6 +166,7 @@
         "name": "Promotion"
       },
       {
+        "info": "This decor is only available on the store for a limited time and will likely not return again. \n\n Ending: \n Perch of the Dawnfire Phoenix: September 28th 2026",
         "items": [
           {
             "ID": 25936,
@@ -174,8 +175,7 @@
             "name": "Perch of the Dawnfire Phoenix"
           }
         ],
-        "name": "Blizzard Store",
-        "info": "This decor is only available on the store for a limited time and will likely not return again. \n\n Ending: \n Perch of the Dawnfire Phoenix: September 28th 2026"
+        "name": "Blizzard Store"
       }
     ]
   },
@@ -242,7 +242,7 @@
             "ID": 15757,
             "icon": "7514920",
             "itemId": "264493",
-            "name": "Opened Domanaar Storage Crate"
+            "name": "Open Domanaar Storage Crate"
           },
           {
             "ID": 8872,
@@ -758,7 +758,7 @@
             "ID": 21617,
             "icon": "7746471",
             "itemId": "271177",
-            "name": "Opened Serpentine Reliquary"
+            "name": "Open Serpentine Reliquary"
           },
           {
             "ID": 18900,
@@ -7731,7 +7731,7 @@
             "ID": 14623,
             "icon": "7483345",
             "itemId": "262598",
-            "name": "Opened Sin'dorei Scroll"
+            "name": "Open Sin'dorei Scroll"
           },
           {
             "ID": 14626,
@@ -13407,7 +13407,7 @@
             "ID": 2589,
             "icon": "7423080",
             "itemId": "246960",
-            "name": "Opened Fungal Jar",
+            "name": "Open Fungal Jar",
             "notObtainable": true
           },
           {

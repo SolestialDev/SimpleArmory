@@ -156,6 +156,7 @@
     "name": "Limited Time",
     "subcats": [
       {
+        "info": "This toy is available as a Twitch Drop for a limited time and will likely not return again. \n Ending: September 27th",
         "items": [
           {
             "ID": 1755,
@@ -164,10 +165,10 @@
             "name": "Venomous Champion's Illustrious Banner"
           }
         ],
-        "name": "Twitch Drops",
-        "info": "This toy is available as a Twitch Drop for a limited time and will likely not return again. \n Ending: September 27th" 
+        "name": "Twitch Drops"
       },
       {
+        "info": "These toys are currently available on the Trading Post Celebration Vendors and may return in future rotations. \n\n Ending: September 30th",
         "items": [
           {
             "ID": 1345,
@@ -230,10 +231,10 @@
             "name": "Foam Sword Rack"
           }
         ],
-        "name": "Trading Post Celebration",
-        "info": "These toys are currently available on the Trading Post Celebration Vendors and may return in future rotations. \n\n Ending: September 30th"
+        "name": "Trading Post Celebration"
       },
       {
+        "info": "These toys are time-limited and will not be available again in the future. \n\n Ending: Midnight, Patch 12.2",
         "items": [
           {
             "ID": 1731,
@@ -242,8 +243,7 @@
             "name": "Corrosive Victory"
           }
         ],
-        "name": "Midnight: Season 2",
-        "info": "These toys are time-limited and will not be available again in the future. \n\n Ending: Midnight, Patch 12.2"
+        "name": "Midnight: Season 2"
       }
     ]
   },
