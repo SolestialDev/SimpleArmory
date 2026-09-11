@@ -121,6 +121,18 @@
       {
         "items": [
           {
+            "ID": 15153,
+            "icon": "7497415",
+            "itemId": "263303",
+            "name": "Cuddly Blue Grrgle"
+          }
+        ],
+        "name": "Twitch Drops",
+        "info": "This decor is available as a Twitch Drop for a limited time and will likely not return again. \n Ending: September 27th" 
+      },
+      {
+        "items": [
+          {
             "ID": 15668,
             "icon": "7513316",
             "itemId": "264396",
@@ -162,7 +174,8 @@
             "name": "Perch of the Dawnfire Phoenix"
           }
         ],
-        "name": "Blizzard Store"
+        "name": "Blizzard Store",
+        "info": "This decor is only available on the store for a limited time and will likely not return again. \n\n Ending: \n Perch of the Dawnfire Phoenix: September 28th 2026"
       }
     ]
   },
@@ -13092,6 +13105,13 @@
             "itemId": "265389",
             "name": "Cuddly Cotton Candy Grrgle",
             "notObtainable": true
+          },
+          {
+            "ID": 15153,
+            "highlighted": true,
+            "icon": "7497415",
+            "itemId": "263303",
+            "name": "Cuddly Blue Grrgle"
           }
         ],
         "name": "Twitch Drops"
@@ -14247,14 +14267,6 @@
             "icon": "7495880",
             "itemId": "263302",
             "name": "Cuddly Red Grrgle",
-            "notObtainable": true,
-            "notReleased": true
-          },
-          {
-            "ID": 15153,
-            "icon": "7497415",
-            "itemId": "263303",
-            "name": "Cuddly Blue Grrgle",
             "notObtainable": true,
             "notReleased": true
           },
